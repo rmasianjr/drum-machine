@@ -8,11 +8,17 @@ class App extends Component {
     display: 'Click or Press a Key'
   };
 
+  handleDisplayName = name => {
+    this.setState({
+      display: name
+    });
+  };
+
   render() {
     return (
       <div id="drum-machine">
         <Display display={this.state.display} />
-        <Keys />
+        <Keys onDisplayName={this.handleDisplayName} />
       </div>
     );
   }

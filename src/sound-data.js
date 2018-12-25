@@ -28,7 +28,7 @@ const soundList = [
     keyCode: 65
   },
   {
-    id: 'Ensoniq-VFX-SD-Snare',
+    id: 'Ensoniq-Snare',
     url:
       'https://res.cloudinary.com/dpc8imgk1/video/upload/v1545530280/drumkit/Ensoniq-VFX-SD-Snare-2.wav',
     key: 'S',
@@ -42,7 +42,7 @@ const soundList = [
     keyCode: 68
   },
   {
-    id: 'E-Mu-Proteus-FX-Wacky-Kick',
+    id: 'Wacky-Kick',
     url:
       'https://res.cloudinary.com/dpc8imgk1/video/upload/v1545530252/drumkit/E-Mu-Proteus-FX-Wacky-Kick.wav',
     key: 'Z',

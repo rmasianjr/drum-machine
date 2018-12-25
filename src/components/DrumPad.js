@@ -8,7 +8,8 @@ class DrumPad extends Component {
       url: PropTypes.string.isRequired,
       keyCode: PropTypes.number.isRequired,
       key: PropTypes.string.isRequired
-    })
+    }),
+    onDisplayName: PropTypes.func.isRequired
   };
 
   componentDidMount() {
@@ -26,12 +27,14 @@ class DrumPad extends Component {
   };
 
   playSound = () => {
-    const sound = document.getElementById(this.props.sound.key);
-    if (!sound) {
+    const { sound, onDisplayName } = this.props;
+    const audio = document.getElementById(sound.key);
+    if (!audio) {
       return;
     }
-    sound.currentTime = 0;
-    sound.play();
+    audio.currentTime = 0;
+    audio.play();
+    onDisplayName(sound.id);
   };
 
   render() {
