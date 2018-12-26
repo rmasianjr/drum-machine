@@ -1,7 +1,8 @@
 import React from 'react';
-import { soundList } from '../sound-data';
-import DrumPad from './DrumPad';
+import { soundList } from '../../sound-data';
+import DrumPad from '../DrumPad/DrumPad';
 import PropTypes from 'prop-types';
+import './Keys.css';
 
 const Keys = ({ onDisplayName }) => (
   <div className="Keys-container">

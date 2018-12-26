@@ -1,0 +1,8 @@
+.Keys-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  max-width: 45rem;
+  margin: 0 auto;
+}

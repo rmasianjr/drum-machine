@@ -1,0 +1,16 @@
+.Display {
+  position: relative;
+  padding: 2rem;
+  border-radius: 5px;
+  top: -3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 30rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  border: 3px solid #eff5ff;
+  background: #108fe8;
+  color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './DrumPad.css';
 
 class DrumPad extends Component {
   static propTypes = {
